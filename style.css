@@ -1,0 +1,32 @@
+header,
+.ms-link-style,
+.location,
+footer {
+color: white;
+}
+
+.ms-bg-header-footer {
+    background-color: #2c3e50;
+}
+
+.ms-ul-style {
+    list-style: none;
+}
+
+.ms-link-style {
+    text-decoration: none;
+}
+
+.hero,
+.about {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+.location {
+    background-color: #3a546d;
+}
