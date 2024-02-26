@@ -1,3 +1,4 @@
+
 header,
 .ms-link-style,
 .location,
@@ -37,6 +38,31 @@ color: white;
 
 .portfolio img {
     width: 100%;
+}
+
+.ms-img-hover {
+    position: relative;
+}
+
+.fa-plus {
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.ms-img-hover:hover img {
+    opacity: 0.8;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.ms-img-hover:hover .fa-plus {
+    display: block;
+    cursor: pointer;
 }
 
 .ms-bg-btn {
