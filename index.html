@@ -134,20 +134,26 @@
                             <div class="ms-star-row-black"></div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-7 text-start border-bottom border-light-subtle">
-                        <span>Name</span>
-                    </div>
-                    <div class="col-sm-6 col-md-7 text-start border-bottom border-light-subtle">
-                        <span>Email Address</span>
-                    </div>
-                    <div class="col-sm-6 col-md-7 text-start border-bottom border-light-subtle">
-                        <span>Phone Number</span>
-                    </div>
-                    <div class="col-sm-6 col-md-7 text-start border-bottom border-light-subtle">
-                        <span>Message</span>
-                    </div>
                     <div class="col-sm-6 col-md-7 text-start">
-                        <button class="btn btn-sm ms-bg-btn my-3">Send</button>
+                        <form>
+                            <div class="form-floating border-bottom">
+                                <input type="name" class="form-control my-1 ms-form" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Name</label>
+                              </div>
+                            <div class="form-floating border-bottom">
+                                <input type="email" class="form-control my-1 ms-form" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                              </div>
+                              <div class="form-floating border-bottom">
+                                <input type="text" class="form-control  my-1 ms-form" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Phone Number</label>
+                              </div>
+                              <div class="form-floating border-bottom">
+                                <textarea class="form-control mt-1 ms-form" id="floatingInput" placeholder="name@example.com"></textarea>
+                                <label for="floatingInput">Message</label>
+                              </div>
+                            <button class="btn btn-sm ms-bg-btn my-3">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>

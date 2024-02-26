@@ -44,6 +44,11 @@ color: white;
     color: white;
 }
 
+.ms-form {
+    border: none;
+    border-bottom: 1 px solid grey;
+}
+
 .location {
     background-color: #3a546d;
 }
