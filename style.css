@@ -23,6 +23,12 @@ color: white;
     color: white;
 }
 
+.hero .ms-star-row {
+    background-color: white;
+    height: 2.5px;
+    width: 35%;
+}
+
 .portfolio img {
     width: 100%;
 }
